@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: rgba(236, 21, 21, 0.945);
+}
+
+header {
+    height: 58px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(60, 9, 179);
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    height: 58px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+   
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 450px;
+    height: 30px;
+    border-radius: 4px;
+    margin:0px 15px 0px 20px;
+    padding: 0px 20px;
+}
+.search button{
+    font-family:"Lato", sans-serif;
+    font-weight: 900;
+}
+.slider img{
+  margin: auto;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height:400px ;
+   
+    
+}
+ 
+.card{
+    max-width: 90vw;
+    margin: auto;
+  
+  
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+   
+.card h2{
+    font-family: "Lato", sans-serif;
+}
+.card-item{
+   margin: 0px 20px;
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.container .card .card-item img {
+    height: 160px;
+    width: 160px;
+}
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.cards .flex-all-center{
+    display: flex;
+    background-color: var(--main-bg-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 80px;
+    margin: 8px 130px 10px 20px;
+}
+
+.logo img {
+    width: 200px;
+    padding: 4px 25px;
+   
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+.footer{
+    display: flex;
+    background-color: var(--main-bg-color);
+    justify-content: center;
+    align-items: center;
+}
